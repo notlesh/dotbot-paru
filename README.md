@@ -40,3 +40,7 @@ For organization, you may also split packages between `pacman` and `paru` direct
 - paru:
   - firefox-nightly
 ```
+
+## License
+
+MIT: See LICENSE.
