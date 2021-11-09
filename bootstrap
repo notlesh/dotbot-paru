@@ -11,7 +11,7 @@ BUILDROOT="$(mktemp -d)"
 # Install build dependencies
 sudo pacman --needed --noconfirm -Syu base-devel git
 
-git clone "https://aur.archlinux.org/paru.git" "$BUILDROOT"
+git clone "https://aur.archlinux.org/paru-bin.git" "$BUILDROOT"
 # Run in subshell so working directory is not impacted
 (cd "$BUILDROOT" && makepkg --noconfirm --syncdeps --install)
 
